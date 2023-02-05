@@ -30,7 +30,7 @@ function Landing() {
 
         <img
           src="/hero-image.jpg"
-          alt={""}
+          alt={"hero-image"}
           className="absolute -right-10 -translate-y-1/2 top-1/2 object-cover hidden transition-all duration-500 md:hidden lg:hidden xl:inline xl:h-[550px] xl:w-[400px] "
         />
       </div>
