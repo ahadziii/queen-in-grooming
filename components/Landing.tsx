@@ -3,7 +3,7 @@ import React from "react"
 
 function Landing() {
   return (
-    <section className=" h-[calc(100vh-3.75rem)] flex ">
+    <section className="sticky top-0 h-[calc(100vh-3.75rem)] flex ">
       <div className=" relative w-[60%] h-full flex items-center px-6 lg:px-8 ">
         <div className=" z-10 ml-3">
           <h1 className="space-y-3 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl">
@@ -35,7 +35,7 @@ function Landing() {
         />
       </div>
       <div className=" w-[40%]  ">
-        <div className="h-[40%] px-6 lg:px-8 bg-slate-300"></div>
+        <div className="h-[40%] px-6 lg:px-8 bg-[#b3856f]"></div>
         <div className="h-[60%] hidden md:inline bg-white px-6 lg:px-8">
           <div className=" lg:p-12 sm:p-3">
             <img
