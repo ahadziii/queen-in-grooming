@@ -23,9 +23,27 @@ const Home: NextPage = () => {
           </h1>
           <div className="mx-auto max-w-fit pt-10 pb-24 sm:px-4 ">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 ">
-              {[1, 2, 3].map((category) => (
-                <CategoryCard />
-              ))}
+              <CategoryCard
+                title={"Faith Building"}
+                description={
+                  "Here you’ll find a collection of pieces that will give you an extra boost to hold on to faith when you’re feeling low. Click to explore this category."
+                }
+                image={"/faith-building.webp"}
+              />
+              <CategoryCard
+                title={"Be Inspired"}
+                description={
+                  "Your life is meant for so much more than the routines you’re used to. Here, you’ll find some inspiration to do more and be more. Click to explore this category."
+                }
+                image={"/be-inspired.webp"}
+              />
+              <CategoryCard
+                title={"Learnig to Love"}
+                description={
+                  "If you’re curious about what I’ve learned concerning the topic of singleness and relationships, look here. Click to explore this category."
+                }
+                image={"/single-and-dating.webp"}
+              />
             </div>
           </div>
         </div>
